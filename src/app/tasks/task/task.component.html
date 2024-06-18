@@ -1,0 +1,10 @@
+<article>
+    <h2>{{taskInfo.title}}</h2>
+    <time>{{taskInfo.dueDate}}</time>
+    <p>
+        {{taskInfo.summary}}
+    </p>
+    <p class="actions">
+        <button (click)="onComplete()">Complete</button>
+    </p>
+</article>

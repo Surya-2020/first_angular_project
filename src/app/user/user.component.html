@@ -1,0 +1,4 @@
+<button [class.active]="selected" (click)="onClick()">
+    <img [src]="'assets/users/'+user.avatar" [alt]="user.name" />
+    <span>{{ user.name }}</span>
+</button>
